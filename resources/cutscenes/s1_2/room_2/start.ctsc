@@ -1,0 +1,7 @@
+depend none
+trigger t 0.1
+0.9
+camera end 20
+1.5
+camera player
+end

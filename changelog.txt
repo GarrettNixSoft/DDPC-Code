@@ -1,0 +1,40 @@
+Pre-changelog changes:
+-Added animated intro
+-Intro now renders on time rather than ticks
+-Added cutscenes (kinda)
+-Dialogue can now load from file
+-Entities handled with EntityHandler class
+-Screen now shakes on m_end jump level
+-Random lightning strikes occur on s4, can damage player if struck directly
+-Probably some bug fixes?
+
+Changelog:
+11/17/18
+-Added changelog
+-Fixed back button from Custom Level State playing select and hover sound effect at once
+
+11/18/18-12/16/18
+-Forgot to update the changelog
+-Atempted to create a multi-channel music system, turns out Slick2D doesn't support what I was trying to do, so scrapped that
+-Created Winter Theme tilesets
+
+12/17/18
+-Created snow effect, implemented snow effect and tilesets on winter theme
+-Added Winter Theme to settings menu
+
+12/18/18
+-Winter Theme setting can only be changed from the main menu, option does not appear if settings are opened in-game
+-Fixed issue with player moving around causing inconsistent snowfall
+-Began creating blizzard effect for level s4_0
+-Fixed player attack hitbox; can no longer attack enemies that are behind
+
+12/26/18
+-Fixed lightning strikes on s4
+-Fixed next level button not making a select sound when clicked
+-Replaced audio track for s4 when playing in standard theme
+-Replaced rain textures for s4 when playing in standard theme with improved versions
+
+1/19/19
+-Remembered I was doing a changelog
+-Forgot everything I did between last entry and now
+-Gave up on trying to remember

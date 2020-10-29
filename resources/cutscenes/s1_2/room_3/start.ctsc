@@ -1,0 +1,7 @@
+depend none
+trigger t 0.1
+0.9
+camera focus sayori 20
+dialogue s_find_1
+camera lock player
+end

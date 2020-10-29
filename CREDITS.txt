@@ -1,0 +1,120 @@
+ALL ASSETS NOT MADE BY ME (Floober101) ARE USED WITH PERMISSION OR RELEASED UNDER CREATIVE COMMONS ATTRIBUTION LICENSES.
+
+WARNING: This game will contain spoilers for Doki Doki Literature Club, DO NOT PLAY unless you have completed the original game!
+Download Doki Doki Literature Club at: http://ddlc.moe
+
+***MUSIC***
+
+Menu music:
+"Doki Doki Literature Club - Main Theme (Your Reality) (8-bit Remix)"
+by MyNewSoundtrack on Youtube!
+https://www.youtube.com/channel/UCDpXkkO-zrCJBByrdERqKMw
+
+Sayori Level music:
+"Ohayou Sayori! 8-Bit Music (Doki Doki Literature Club!)"
+by 3Pills on YouTube!
+https://www.youtube.com/channel/UCzHNfWpbUNS1loRWPzOPOCQ
+
+Natsuki Level music:
+"Dreams of Love and Literature" (8 bit ver.)
+by Dan Salvato!
+http://teamsalvato.com/
+
+Yuri Level music:
+"Eerie Mausoleum"
+by Visager on Freemusicarchive!
+http://freemusicarchive.org/music/Visager/
+
+Level complete:
+"Daijoubu! - 8-Bit Music (Doki Doki Literature Club!)"
+by 3Pills on YouTube!
+https://www.youtube.com/channel/UCzHNfWpbUNS1loRWPzOPOCQ
+
+Sayori End Music:
+"Village Dreaming"
+by Visager on Freemusicarchive!
+http://freemusicarchive.org/music/Visager/
+
+Monika Glitch Music:
+"Finale - 8-Bit Music (Doki Doki Literature Club!)"
+by 3Pills on YouTube!
+https://www.youtube.com/channel/UCzHNfWpbUNS1loRWPzOPOCQ
+
+Monika End (Collapse) Level Music:
+"Inside The Tower"
+by Visager on Freemusicarchive!
+http://freemusicarchive.org/music/Visager/
+
+Monika Epilogue Music:
+"Shrine"
+by Visager on Freemusicarchive!
+http://freemusicarchive.org/music/Visager/
+
+End Credits sequence music:
+"The Final Road"
+by Visager on Freemusicarchive!
+http://freemusicarchive.org/music/Visager/
+
+
+***SOUND EFFECTS***
+
+Rain/thunder background loop:
+"Rain and Thunder loop"
+by DoKashiteru on OpenGameArt!
+https://opengameart.org/users/dokashiteru
+
+Thunder sound:
+"t-clap.wav"
+by FreqMan on freesound.org!
+https://freesound.org/people/FreqMan/
+https://creativecommons.org/licenses/by/3.0/legalcode
+
+Static sound effect:
+"Staic Noise.wav"
+by WaveLynx on freesound.org!
+https://freesound.org/people/WaveLynx/
+*This sound effect is Public Domain. Attribution is not required.
+
+Slice sound effect:
+"Knife Slice Into Flesh Sound Effect"
+by SoundEffectsFactory on YouTube!
+https://www.youtube.com/channel/UCYIxR_86Ck0sCL26eVuumvQ
+
+Rain 1 (Yuri's Fright Minigame):
+"rain and thinder"
+by saphe on freesound.org!
+https://freesound.org/people/saphe/
+https://creativecommons.org/licenses/by/3.0/legalcode
+
+
+***TEXTURES/SPRITES***
+
+Character sprites:
+Made by u/JackSunslight on Reddit!
+https://www.reddit.com/user/JackSunslight
+
+Spider sprites:
+Made by Reemax on OpenGameArt!
+https://opengameart.org/users/reemax
+
+Background clouds:
+Made by Guido Bos, submitted to OpenGameArt by marcavis
+Guido Bos: http://neoriceisgood.deviantart.com/
+*These images are Public Domain. Attribution is not required.
+
+Yuri level background:
+"Night forest background"
+Made by AhNinniah (Olga Bikmullina) on OpenGameArt!
+https://opengameart.org/users/ahninniah
+http://ahninniah.graphics
+
+Collapse level background:
+"Space Background"
+by Westbeam on OpenGameArt!
+https://opengameart.org/users/westbeam
+*This image is Public Domain. Attribution is not required.
+
+***OTHER ACKNOWLEDGEMENTS***
+The tilemap scrolling and physics are based heavily on code from ForeignGuyMike's code from his Java Platformer tutorial series.
+This tutorial was what got me into game programming to start with my freshman year of high school. Major props to Mike for his
+work. Check him out! Link to his channel: https://www.youtube.com/user/ForeignGuyMike

@@ -1,0 +1,53 @@
+Doki Doki Platformer Club! is an unofficial fan work based on the visual novel made by
+Team Salvato, "Doki Doki Literature Club!" DDPC is not affiliated with Team Salvato.
+
+WARNING: This game will contain spoilers for Doki Doki Literature Club, DO NOT PLAY unless you have completed the original game!
+Download Doki Doki Literature Club at: http://ddlc.moe
+
+
+Gameplay -
+
+DDPC comes with 16 levels to play, 4 for each character in the original game.
+Monika's levels are locked until all the other girls' levels have been completed.
+Upon completing all 16 levels, the custom level screen will be unlocked, accessible
+via an arrow button that will appear on the level select screen. Players can
+use this custom level screen to load and play custom levels created in the DDPC
+Level Editor.
+
+If at any point a player wishes to reset their progress and start over, they can do
+so by using the "Reset Progress" button in the settings menu. This will reset the
+game's progress, and cannot be undone.
+
+Technical information -
+
+HARDWARE REQUIREMENTS (approximate, this is all really just complete guesswork, this game could probably run on a RasPi):
+RAM: 1GB or more recommended
+CPU: Anything from the last 10 years tbh
+GPU: must support OpenGL
+
+SOFTWARE REQUIREMENTS:
+OS: shouldn't matter (some features are only available on Windows 10, however)
+Java: must have Java 9 or later, Java 10 recommended
+
+***NOTICE ON META CONTENT*** -
+
+There is a small amount of "meta" content available in the game when running it on Windows 10.
+This content involves the game acting outside of its own "boundaries" and playing with some
+Windows features to deliver a more immersive experience. The game DOES NOT alter any files or
+change any user settings on the device; however it does utilize some tools to start/stop other
+Windows processes temporarily. These actions should not have any effect on the system. However,
+there are many circumstances in which these actions could be interrupted or blocked by system
+permissions, or could possibly be tripped up by poor system performance. It is only recommended
+to enable this content if:
+
+	- you have full permissions on the system you are using (not a schoolor workplace computer)
+	- you are running the game on a system with decent response time (program windows open quickly)
+	- you have at least some basic knowledge of some slightly more advanced Windows features
+
+If you are not comfortable with this you can choose not to activate the content, which is why
+it is not enabled by default.
+
+Contact Me -
+
+Questions or comments about the game? Found a bug you want to report? Just want to say hi?
+Contact me via email at floober101games@gmail.com or via Reddit PM to u/Floober101!

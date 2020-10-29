@@ -1,0 +1,34 @@
+If DDPC fails to restart explorer.exe after completing the game with "Meta Content" enabled, then
+something on your computer has blocked the game from starting a new process on your machine. Fortunately,
+explorer.exe is very easy to restart manually, and there are a couple of different methods for doing so.
+Which method you will chose depends on the permissions you have on the machine you're using. Please refer
+to the following list of only 2 methods that I could come up with while writing this:
+
+Permission levels:
+
+Owners, Administrators, or Unrestricted Users - Use method 1
+Restricted Users (cannot use Task Manager) - Use method 2
+
+
+
+METHOD 1: The easy one
+
+1. Use "Ctrl + Shift + Escape" to open Task Manager.
+2. Select "File > Start a new task" and enter "explorer.exe"
+3. All done!
+
+METHOD 2: The one I came up with in high school to get away with stuff*
+
+1. Use "Ctrl + Shift + Escape" to open Task Manager.
+2. Select any program currently running, and right click.
+3. Select "Open file location."
+4. This will open an Explorer window. Use it to navigate to C:\Windows\
+5. Find "explorer.exe" in this directory and run it.
+6. All done!
+
+
+*If you're curious, ask me (Floober101) about this in the DDPC discord: https://discord.gg/nQCR32k
+
+
+NOTE: if you know another way of doing it, which someone probably does, then let me know in the DDPC discord
+and I'll add it on a new text channel people can refer to for future reference.

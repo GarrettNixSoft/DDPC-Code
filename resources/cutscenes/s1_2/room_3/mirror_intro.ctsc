@@ -1,0 +1,22 @@
+depend none
+trigger a 56,0:60,6
+dialogue s_find_2
+event area r 55,0 5,6 56,5 strike notile
+spawn mirror r player
+entity glitch player 0.5
+entity glitch mirror 0.5
+0.5
+dialogue s_find_3
+entity glitch player 1.0
+0.5
+dialogue s_find_4
+entity glitch player 1.0
+entity glitch mirror 0.5
+0.5
+entity jump mirror 1 25
+entity move mirror 3 30
+entity move mirror 2 3
+dialogue s_find_5
+entity move mirror 3 3
+teleporter 0 63,3:1000,1000
+end

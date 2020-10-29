@@ -1,0 +1,14 @@
+Wind Sound:
+1. "Sound of wind"
+Published to YouTube by No Copyright Sounds
+https://www.youtube.com/channel/UC5zpQxSHljav0cKJjkX-4cA
+2. "Strong Wind Blowing"
+Published to OpenGameArt by DontMind8
+https://opengameart.org/users/dontmind8
+Licensed CC-BY: https://creativecommons.org/licenses/by/4.0/legalcode
+**These 2 tracks were modified and mixed together to produce the audio used in-game.
+
+[REPLACED] S4 rain audio has been replaced with:
+"rain and thunder" by saphe on freesound.org
+https://freesound.org/people/saphe/
+Licensed CC-BY: https://creativecommons.org/licenses/by/3.0/legalcode
