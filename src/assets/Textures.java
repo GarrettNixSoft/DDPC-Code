@@ -521,13 +521,12 @@ public class Textures {
 		heart[0] = Loader.loadTexture("ui", "heart_empty");
 		heart[1] = Loader.loadTexture("ui", "heart_full");
 		// load dialogue textures
-		dialogue_faces = new Texture[6];
+		dialogue_faces = new Texture[5];
 		dialogue_faces[0] = Loader.loadTexture("ui", "char_sayori_dialogue");
 		dialogue_faces[1] = Loader.loadTexture("ui", "char_natsuki_dialogue");
 		dialogue_faces[2] = Loader.loadTexture("ui", "char_yuri_dialogue");
 		dialogue_faces[3] = Loader.loadTexture("ui", "char_monika_dialogue");
 		dialogue_faces[4] = Loader.loadTextureTGA("ui", "char_light_dialogue");
-		dialogue_faces[5] = Loader.loadTexture("ui", "char_mirror_dialogue");
 		arrow = Loader.loadTexture("ui", "arrow");
 		// load dialogue effects
 		//dialogue_faces_glitch = new Texture[5][];
@@ -535,7 +534,6 @@ public class Textures {
 		//dialogue_faces_glitch[1] = Loader.loadGlitchTextures("ui/glitch", "char_natsuki_dialogue");
 		//dialogue_faces_glitch[2] = Loader.loadGlitchTextures("ui/glitch", "char_yuri_dialogue");
 		//dialogue_faces_glitch[3] = Loader.loadGlitchTextures("ui/glitch", "char_monika_dialogue");
-		//dialogue_faces_glitch[4] = Loader.loadGlitchTextures("ui/glitch", "char_mirror_dialogue");
 		// load misc UI stuff
 		escape_key = Loader.loadTexture("ui", "escape_key");
 		preview = Loader.loadTexture("menu", "preview");
@@ -569,13 +567,6 @@ public class Textures {
 		m_attack = Loader.loadSprites("m_attack");
 		light = Loader.loadTextureTGA("sprites", "light");
 		m_face = Loader.loadTexture("sprites", "m_face");
-		// mirror
-		//mr_idle = Loader.loadSprites("mr_idle");
-		//mr_walk = Loader.loadSprites("mr_walk");
-		//mr_jump = Loader.loadSprites("mr_jump");
-		//mr_fall = Loader.loadSprites("mr_fall");
-		//mr_attack = Loader.loadSprites("mr_attack");
-		//mr_face = Loader.loadTexture("sprites", "mr_face");
 		// end sprites
 		end_sprites = new Texture[4];
 		end_sprites[0] = Loader.loadTexture("sprites", "s_sprite_end");

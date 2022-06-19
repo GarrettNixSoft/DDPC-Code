@@ -4,6 +4,7 @@ import static main.Render.drawImage;
 
 import java.util.ArrayList;
 
+import effects.JumpProgressMeter;
 import org.lwjgl.input.Keyboard;
 import org.newdawn.slick.opengl.Texture;
 
@@ -53,6 +54,9 @@ public class MEndState extends PlayState {
 	
 	// glitch zone
 	private GlitchZone glitchZone;
+
+	// progress bar
+	private JumpProgressMeter progressMeter;
 	
 	// CHALLENGE MODE
 	private boolean challenge;
@@ -94,6 +98,8 @@ public class MEndState extends PlayState {
 		if (effects[1] != null) {
 			effects[1] = new SnowEffect(tilemap, player);
 		}
+		// progress bar
+		progressMeter = new JumpProgressMeter(tilemap, player);
 	}
 	
 	private void initDialogue() {
@@ -132,6 +138,9 @@ public class MEndState extends PlayState {
 	}
 	
 	public void update() {
+		// update the progress bar
+		progressMeter.update();
+		// the rest of the update
 		if (effects[1] != null) effects[1].update();
 		if (!d1Shown) {
 			long elapsed = (System.nanoTime() - d1Timer) / 1000000;
@@ -240,6 +249,8 @@ public class MEndState extends PlayState {
 		else if (paused) {
 			pauseMenu.render();
 		}
+		// draw the progress bar
+		progressMeter.render();
 	}
 	
 	public void handleInput() {
