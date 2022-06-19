@@ -289,6 +289,19 @@ public class Textures {
 	public static Texture[] y_ghost_jump_glitch;
 	public static Texture[] y_ghost_fall_glitch;
 	public static Texture[] y_ghost_attack_glitch;
+
+	// ghost monika
+	public static Texture[] m_ghost_idle;
+	public static Texture[] m_ghost_walk;
+	public static Texture[] m_ghost_jump;
+	public static Texture[] m_ghost_fall;
+	public static Texture[] m_ghost_attack;
+
+	public static Texture[] m_ghost_idle_glitch;
+	public static Texture[][] m_ghost_walk_glitch;
+	public static Texture[] m_ghost_jump_glitch;
+	public static Texture[] m_ghost_fall_glitch;
+	public static Texture[] m_ghost_attack_glitch;
 	
 	/*
 	// PL TEXTURES
@@ -752,5 +765,22 @@ public class Textures {
 		y_ghost_walk_glitch[1] = y_ghost_idle_glitch;
 		y_ghost_walk_glitch[2] = y_ghost_fall_glitch;
 		y_ghost_walk_glitch[3] = y_ghost_idle_glitch;
+
+		// monika ghost
+		m_ghost_idle = Loader.loadSprites("minigame/m_ghost_idle");
+		m_ghost_walk = Loader.loadSprites("minigame/m_ghost_walk");
+		m_ghost_jump = Loader.loadSprites("minigame/m_ghost_jump");
+		m_ghost_fall = Loader.loadSprites("minigame/m_ghost_fall");
+		m_ghost_attack = new Texture[1];
+		m_ghost_attack[0] = Loader.loadTextureTGA("sprites/minigame", "m_ghost_attack");
+		m_ghost_idle_glitch = Loader.loadGlitchTextures("sprites/minigame/m_ghost_idle_glitch", "m_ghost_idle_glitch");
+		m_ghost_jump_glitch = Loader.loadGlitchTextures("sprites/minigame/m_ghost_jump_glitch", "m_ghost_jump_glitch");
+		m_ghost_fall_glitch = Loader.loadGlitchTextures("sprites/minigame/m_ghost_fall_glitch", "m_ghost_fall_glitch");
+		m_ghost_attack_glitch = Loader.loadGlitchTextures("sprites/minigame/m_ghost_attack_glitch", "m_ghost_attack_glitch");
+		m_ghost_walk_glitch = new Texture[4][];
+		m_ghost_walk_glitch[0] = m_ghost_jump_glitch;
+		m_ghost_walk_glitch[1] = m_ghost_idle_glitch;
+		m_ghost_walk_glitch[2] = m_ghost_fall_glitch;
+		m_ghost_walk_glitch[3] = m_ghost_idle_glitch;
 	}
 }

@@ -36,7 +36,7 @@ public class MEndState extends PlayState {
 	
 	// map and camera
 	private Camera camera;
-	private VerticalTileMap tilemap;
+	protected VerticalTileMap tilemap;
 	
 	// render
 	private Texture background;

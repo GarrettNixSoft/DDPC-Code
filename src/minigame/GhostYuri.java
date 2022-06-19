@@ -25,8 +25,8 @@ public class GhostYuri extends Entity {
 	//private Pathfinder pathfinder;
 	
 	// glitch effect
-	private GlitchAnimation animation;
-	private GlitchRandom glitch;
+	protected GlitchAnimation animation;
+	protected GlitchRandom glitch;
 	//private ShakeEffect shakeEffect;
 	
 	// actions
@@ -37,17 +37,17 @@ public class GhostYuri extends Entity {
 	private static final int ATTACKING = 4;
 	
 	// sprites
-	private Texture[] idleFrames;
-	private Texture[] walkFrames;
-	private Texture[] jumpFrames;
-	private Texture[] fallFrames;
-	private Texture[] attackFrames;
+	protected Texture[] idleFrames;
+	protected Texture[] walkFrames;
+	protected Texture[] jumpFrames;
+	protected Texture[] fallFrames;
+	protected Texture[] attackFrames;
 	// glitched sprites
-	private Texture[] idleGlitchFrames;
-	private Texture[][] walkGlitchFrames;
-	private Texture[] jumpGlitchFrames;
-	private Texture[] fallGlitchFrames;
-	private Texture[] attackGlitchFrames;
+	protected Texture[] idleGlitchFrames;
+	protected Texture[][] walkGlitchFrames;
+	protected Texture[] jumpGlitchFrames;
+	protected Texture[] fallGlitchFrames;
+	protected Texture[] attackGlitchFrames;
 	
 	// attack
 	protected boolean attacking;

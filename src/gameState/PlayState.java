@@ -311,6 +311,7 @@ public class PlayState extends GameState {
 	}
 	
 	public void update() {
+
 		if (exitTimer != -1) {
 			long elapsed = (System.nanoTime() - exitTimer) / 1000000;
 			if (elapsed > 2900) {
@@ -327,6 +328,12 @@ public class PlayState extends GameState {
 		else if (player.isDead() && !DataCache.levelSelected.equals("s4")) {
 			deadMenu.update();
 			return;
+		}
+		else if (player.isDead()) {
+			if (exitTimer == -1 && DataCache.levelSelected.equals("s4")) {
+				FadeManager.fadeOut(3.0f, false);
+				exitTimer = System.nanoTime();
+			}
 		}
 		player.update();
 		if (!win) {
@@ -505,9 +512,9 @@ public class PlayState extends GameState {
 				paused = !paused;
 				Sfx.playSound(Sfx.TYPE_MENU, Sfx.HOVER);
 			}
-			if (KeyInput.isPressed(KeyInput.L)) {
-				location = !location;
-			}
+//			if (KeyInput.isPressed(KeyInput.L)) {
+//				location = !location;
+//			}
 			// TEMP
 			if (KeyInput.isPressed(KeyInput.F)) {
 				//OS.minimizeAll();

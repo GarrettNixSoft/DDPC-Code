@@ -1,5 +1,7 @@
 package util.data;
 
+import java.nio.charset.StandardCharsets;
+import java.time.LocalDateTime;
 import java.util.prefs.Preferences;
 
 import javax.swing.JOptionPane;
@@ -54,6 +56,9 @@ public class SaveData {
 	
 	// explorer help
 	public static final String SHOW_EXPLORER_HELP = "show_explorer_help";
+
+	// last run timestamp
+	public static final String LAST_RUN = "last_run";
 	
 	// prefs
 	private static Preferences prefs;
@@ -79,7 +84,7 @@ public class SaveData {
 	
 	// load progress data
 	public static void load() {
-		prefs = Preferences.userNodeForPackage(SaveData.class);
+		prefs = Preferences.userRoot().node("ddpc/save");
 		// init progress
 		DataCache.s_progress = prefs.getInt(S_PROGRESS, 0);
 		DataCache.n_progress = prefs.getInt(N_PROGRESS, 0);
@@ -120,7 +125,12 @@ public class SaveData {
 		DataCache.settings_opened_1 = prefs.getBoolean(SETTINGS_OPENED_1, false);
 		DataCache.winter_theme_enabled = prefs.getBoolean(WINTER_THEME_ENABLED, false);
 		// init explorer help
-		//DataCache.show_explorer_help = prefs.getBoolean(SHOW_EXPLORER_HELP, false);
+		DataCache.show_explorer_help = prefs.getBoolean(SHOW_EXPLORER_HELP, false);
+		// save last runtime as now
+		byte[] now = getNowAsByteArray();
+		prefs.putByteArray(LAST_RUN, now);
+		System.out.println("LAST_RUN: " + new String(now, StandardCharsets.UTF_8));
+		// reset volume to ensure it's correct
 		Music.resetVolume();
 	}
 	
@@ -157,7 +167,13 @@ public class SaveData {
 		prefs.putBoolean(SETTINGS_OPENED_1, DataCache.settings_opened_1);
 		prefs.putBoolean(WINTER_THEME_ENABLED, DataCache.winter_theme_enabled);
 		// save explorer help
-		prefs.getBoolean(SHOW_EXPLORER_HELP, false);
+		prefs.putBoolean(SHOW_EXPLORER_HELP, DataCache.show_explorer_help);
+		// save last runtime as now
+		prefs.putByteArray(LAST_RUN, getNowAsByteArray());
+	}
+
+	private static byte[] getNowAsByteArray() {
+		return LocalDateTime.now().toString().getBytes(StandardCharsets.UTF_8);
 	}
 	
 	// reset progress

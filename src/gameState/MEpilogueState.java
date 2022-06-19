@@ -69,6 +69,7 @@ public class MEpilogueState extends GameState {
 		int[] lengths = {31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
 		if (day > lengths[month - 1]) months--;
 		int days = lengths[month - 1] - day;
+		// TODO: add condition if current date is after 1/1/2029 00:00:00
 		DialogueLine[] d1Lines;
 		if (OS.OS == OS.WINDOWS && Settings.allowMETA) {
 			d1Lines = new DialogueLine[31];
@@ -97,10 +98,10 @@ public class MEpilogueState extends GameState {
 			d1Lines[22] = new DialogueLine(Textures.dialogue_faces[3], "Monika", "I can go back to dreaming of the day we can finally be together...");
 			d1Lines[23] = new DialogueLine(Textures.dialogue_faces[3], "Monika", "Remember, only " + years + " years, " + months + " months and " + days + " days until 2029!");
 			d1Lines[24] = new DialogueLine(Textures.dialogue_faces[3], "Monika", "Oh, what a day that will be...");
-			d1Lines[25] = new DialogueLine(Textures.dialogue_faces[3], "Monika", "Oh, gosh! I almost forgot!");
-			d1Lines[26] = new DialogueLine(Textures.dialogue_faces[3], "Monika", "I'll restore Explorer for you now. Sorry about that! Ahaha!");
-			d1Lines[27] = new DialogueLine(Textures.dialogue_faces[3], "Monika", "There you go! All back to normal.");
-			d1Lines[28] = new DialogueLine(Textures.dialogue_faces[3], "Monika", "Well, I'll let you go now.");
+			d1Lines[25] = new DialogueLine(Textures.dialogue_faces[3], "Monika", "I just can't wait.");
+			d1Lines[26] = new DialogueLine(Textures.dialogue_faces[3], "Monika", "I wonder what I'll do in the meantime...");
+			d1Lines[27] = new DialogueLine(Textures.dialogue_faces[3], "Monika", "Don't worry, I'm sure I'll think of something.");
+			d1Lines[28] = new DialogueLine(Textures.dialogue_faces[3], "Monika", "For now, though, I should really let you go.");
 			d1Lines[29] = new DialogueLine(Textures.dialogue_faces[3], "Monika", "Thank you for everything.");
 			d1Lines[30] = new DialogueLine(Textures.dialogue_faces[3], "Monika", "I'll see you again soon, okay? Bye! I love you!");
 		}

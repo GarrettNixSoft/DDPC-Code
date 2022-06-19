@@ -127,7 +127,7 @@ public class CreditsState extends GameState {
 				"in here to shoutout as many awesome people",
 				"as I can, just for funsies. In no particular",
 				"order, of course! (And if you're not in the",
-				"list, don't worry, you're still awesome!)",
+				"list, don't worry, you're still awesome!)"
 		});
 		ScrollingSectionElement s6 = new ScrollingSectionElement("Awesome People!", new String[] {
 				"u/TragicUnicorn",

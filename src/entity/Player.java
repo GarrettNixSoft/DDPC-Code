@@ -10,6 +10,7 @@ import assets.Sfx;
 import assets.Textures;
 import entity.util.Animation;
 import tile.TileMap;
+import util.LocationData;
 import util.data.DataCache;
 import util.input.KeyInput;
 
@@ -454,5 +455,14 @@ public class Player extends Entity {
 		health = 0;
 		dead = true;
 		Sfx.playSound(Sfx.TYPE_PLAYER, Sfx.LOSE);
+	}
+
+	public LocationData getLocationData() {
+		LocationData data = new LocationData();
+		data.x = x;
+		data.y = y;
+		data.dx = dx;
+		data.dy = dy;
+		return data;
 	}
 }

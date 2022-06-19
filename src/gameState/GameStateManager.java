@@ -131,7 +131,9 @@ public class GameStateManager {
 				break;
 			case JUMP_CHALLENGE_STATE:
 				// jump challenge activate
-				gameStates[state] = new MEndState(this, true);
+				gameStates[state] = KeyInput.isDown(KeyInput.LSHIFT) ?
+						new MChaseEndState(this, true) :
+						new MEndState(this, true);
 				DataCache.challenge = true;
 				break;
 			case TORTURE_CHALLENGE_STATE:

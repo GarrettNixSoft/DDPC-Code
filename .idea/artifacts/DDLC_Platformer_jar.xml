@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="DDLC Platformer:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/DDLC_Platformer_jar</output-path>
+    <root id="archive" name="DDLC Platformer.jar">
+      <element id="module-output" name="DDLC Platformer" />
+    </root>
+  </artifact>
+</component>

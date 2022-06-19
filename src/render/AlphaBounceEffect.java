@@ -41,7 +41,7 @@ public class AlphaBounceEffect extends AlphaEffect {
 	
 	private void setBounceTime() {
 		bounceTime = MathUtil.randInt(500, 3500);
-		System.out.println("[AlphaBounceEffect] bounceTime = " + bounceTime);
+//		System.out.println("[AlphaBounceEffect] bounceTime = " + bounceTime);
 	}
 	
 	private void bounce() {
@@ -73,7 +73,7 @@ public class AlphaBounceEffect extends AlphaEffect {
 		}
 		else {
 			if (elapsed > bounceTime) {
-				System.out.println("[AlphaBounceEffect] time reached");
+//				System.out.println("[AlphaBounceEffect] time reached");
 				bounce();
 			}
 			else {
@@ -81,7 +81,7 @@ public class AlphaBounceEffect extends AlphaEffect {
 				alpha -= diff;
 				//System.out.println("[AlphaBounceEffect] fade, diff = " + diff + ", alpha = " + alpha);
 				if (alpha < min) {
-					System.out.println("[AlphaBounceEffect] min reached");
+//					System.out.println("[AlphaBounceEffect] min reached");
 					bounce();
 				}
 			}

@@ -128,7 +128,7 @@ public class RainEffect extends VisualEffect {
 			Texture tex = lightningFlash.getCurrentFrame();
 			float x = strikeLocation + tm.getX() - tex.getImageWidth() / 2;
 			float y = tm.getY() + tm.getGroundY(strikeLocation) - tex.getImageHeight();
-			System.out.println("[RainEffect] rendering lightning at (" + x + "," + y + ")");
+//			System.out.println("[RainEffect] rendering lightning at (" + x + "," + y + ")");
 			drawImage(tex, x, y);
 		}
 		for (RainDrop r : raindrops) r.render();
