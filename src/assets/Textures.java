@@ -165,13 +165,6 @@ public class Textures {
 	public static Texture[] m_attack;
 	public static Texture light;
 	public static Texture m_face;
-	// mirror
-	public static Texture[] mr_idle;
-	public static Texture[] mr_walk;
-	public static Texture[] mr_jump;
-	public static Texture[] mr_fall;
-	public static Texture[] mr_attack;
-	public static Texture mr_face;
 	// end screen
 	public static Texture[] end_sprites;
 	
@@ -233,7 +226,6 @@ public class Textures {
 	public static Texture[] n_glitch;
 	public static Texture[] y_glitch;
 	public static Texture[] m_glitch;
-	public static Texture[] mr_glitch;
 	
 	// in-game
 	public static Texture[] lightning;
@@ -658,18 +650,16 @@ public class Textures {
 		// menu
 		star = Loader.loadTexture("menu", "star");
 		star_yellow = Loader.loadTexture("menu", "star_yellow");
-		menu_sprites = new Texture[5];
+		menu_sprites = new Texture[4];
 		menu_sprites[0] = Loader.loadTexture("menu/sprites", "s_jump_menu");
 		menu_sprites[1] = Loader.loadTexture("menu/sprites", "n_jump_menu");
 		menu_sprites[2] = Loader.loadTexture("menu/sprites", "y_jump_menu");
 		menu_sprites[3] = Loader.loadTexture("menu/sprites", "m_jump_menu");
-		menu_sprites[4] = Loader.loadTexture("menu/sprites", "mr_jump_menu");
 		// character glitch sprites
 		//s_glitch = Loader.loadGlitchSprites("s_glitch");
 		//n_glitch = Loader.loadGlitchSprites("n_glitch");
 		//y_glitch = Loader.loadGlitchSprites("y_glitch");
 		//m_glitch = Loader.loadGlitchSprites("m_glitch");
-		//mr_glitch = Loader.loadGlitchSprites("mr_glitch");
 		// in-game
 		lightning = new Texture[4];
 		lightning[0] = Loader.loadTexture("effects/expansion/lightning", "lightning_frame_1");
