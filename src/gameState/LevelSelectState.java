@@ -18,6 +18,7 @@ import gui.ButtonTogglable;
 import main.Render;
 import util.FadeManager;
 import util.data.DataCache;
+import util.input.KeyInput;
 import util.input.MouseInput;
 
 public class LevelSelectState extends GameState {
@@ -310,7 +311,7 @@ public class LevelSelectState extends GameState {
 							DataCache.level += (i + 1) * 10;
 						}
 						//System.out.println("level: " + DataCache.level);
-						if (currentPage == 0 && DataCache.m_complete) {
+						if (currentPage == 0 && DataCache.m_complete && !KeyInput.isDown(KeyInput.LSHIFT)) {
 							popup.open();
 							break;
 						}

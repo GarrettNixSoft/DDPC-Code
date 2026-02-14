@@ -53,12 +53,12 @@ public class Character extends Player {
 		case 4:
 			// override with Mirror's sprites
 			System.out.println("[Character] Overriding!");
-			idle = Textures.mr_idle;
-			walk = Textures.mr_walk;
-			jump = Textures.mr_jump;
-			fall = Textures.mr_fall;
-			attack = Textures.mr_attack;
-			glitch_tex = Textures.mr_glitch;
+			//idle = Textures.mr_idle;
+			//walk = Textures.mr_walk;
+			//jump = Textures.mr_jump;
+			//fall = Textures.mr_fall;
+			//attack = Textures.mr_attack;
+			//glitch_tex = Textures.mr_glitch;
 			break;
 		}
 		animation = new Animation();
